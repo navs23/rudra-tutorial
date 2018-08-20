@@ -5,13 +5,13 @@ A simple webserver application for serving static pages.
 
 1) Clone repo
 
- - git clone https://github.com/navs23/rudra-tutorial.git
+    git clone https://github.com/navs23/rudra-tutorial.git
 
 2) Install dependencies
-
-npm i
-
+    
+    npm start
+    
 3) Run web server
 
-npm start
+    npm start
 
