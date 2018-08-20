@@ -1,0 +1,83 @@
+<Html>
+    <head>
+           <link rel="stylesheet" href="../../css/style.css" type="text/css" />
+           <script type="text/javascript" src="../../node_modules/jquery/dist/jquery.min.js"></script>
+    </head>
+    </head>
+    <body>
+        <a href="/">Home</a>
+        <h3>What is Html?</h3>
+    <ul>
+    <li>Html is the standard markup language for creating Web pages.</li>
+    <li>Html stands for Hyper Text Markup Language</li>
+    <li>Html describes the structure of Web pages using markup</li>
+    <li>Html elements are the building blocks of Html pages</li>
+    <li>Html elements are represented by tags</li>
+    <li>A well formatted Html tag should contain opening and matching closing element e.g. 
+   <strong> &lt;h1&gt;</strong> is the opening element and <strong>&lt;/h1&gt;</strong> is the closing tag.
+    </li>
+    <li>Html content is placed between opening and closing element</li>
+    <li>Html tag with no content is called empty element</li>
+    <li>Browser is a special software that transform Html tags to a content of the page </li>
+    
+    </ul>
+    <h3 >Common Html tags</h3>
+    <table border="1" class="tag-table">
+     
+          <tbody>
+           
+        </tbody>
+      
+    </table>
+   
+    </body>
+
+</Html>
+<script type="text/javascript" >
+/* global $
+*/
+$(document).ready(function(){
+   
+
+    
+    
+(function() {
+        
+  var tagJson = "../tutorial/tutorial.json";
+  var jqxhr=$.getJSON( tagJson, {
+    format: "json"
+  })
+  .done(function(data){
+      
+      renderTable(data);
+      
+  })
+  .fail(function( jqxhr, textStatus, error ) {
+    var err = textStatus + ", " + error;
+    console.log( "Request Failed: " + err );
+})
+  .always(function() {
+    console.log( "complete" );
+  });
+
+})();
+    
+    
+    
+    
+});
+
+
+function renderTable(data){
+    $.map(data,function(e,i){
+        $('.tag-table tbody').append(`<tr class="row-heading"><td colspan="3">${e.section}</td></tr>`);
+        $.map(e.tags,function(tag,index){
+        
+        return ($('.tag-table tbody').append(`<tr><td>${tag.tag}</td><td>${tag.description}</td><td><div class="example-container">${tag.example}</div></td></tr>`));
+    });    
+        
+    });
+    
+    
+}    
+</script>

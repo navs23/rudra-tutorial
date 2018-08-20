@@ -1,0 +1,109 @@
+[
+{
+    "section":"basic html tags",
+    "tags":[
+                {"tag":"&lt;html&gt; &lt;/html&gt;","description":"Creates an HTML document","example":""},
+                {"tag":"&lt;head&gt; &lt;/head&gt;","description":"Sets off the title & other info that isn't displayed","example":""},
+                {"tag":"&lt;body&gt; &lt;/body&gt;","description":"Sets off the visible portion of the document","example":""},
+                {"tag":"&lt;title&gt; &lt;/title&gt;","description":"Puts name of the document in the title bar; when bookmarking pages, this is what is bookmarked Body attributes (only used in email newsletters)","example":""}
+            ]
+},
+ {
+     "section":"text tags",
+     "tags":[
+                {"tag":"&lt;pre&gt; &lt;/pre&gt;","description":"Creates preformatted text","example":""},
+                {"tag":"&lt;h1&gt; &lt;/h1&gt;--&gt;&lt;h6&gt; &lt;/h6&gt;","description":"Creates headlines -- H1=largest, H6=smallest","example":""},
+                {"tag":"&lt;b&gt; &lt;/b&gt;","description":"Creates bold text (should use <strong> instead)","example":""},
+                {"tag":"&lt;i&gt; &lt;/i&gt;","description":"Creates italicized text (should use <em> instead)","example":""},
+                {"tag":"&lt;tt&gt; &lt;/tt&gt;","description":"Creates typewriter-style text","example":""},
+                {"tag":"&lt;code&gt; &lt;/code&gt;","description":"Used to define source code, usually monospace","example":""},
+                {"tag":"&lt;cite&gt; &lt;/cite&gt;","description":"Creates a citation, usually processed in italics","example":""},
+                {"tag":"&lt;address&gt; &lt;/address&gt;","description":"Creates address section, usually processed in italics","example":""},
+                {"tag":"&lt;em&gt; &lt;/em&gt;","description":"Emphasizes a word (usually processed in italics)","example":""},
+                {"tag":"&lt;strong&gt; &lt;/strong&gt;","description":"Emphasizes a word (usually processed in bold)","example":""}
+           
+            ]
+},
+ {
+     "section":"Formating",
+     "tags":[
+                   {"tag":"&lt;p &gt;&nbsp;&lt;/p&gt;","description":"Creates a new paragraph","example":""},
+                   {"tag":"&lt;br/&gt;","description":"Inserts a line break (carriage return)","example":""},
+                   {"tag":"&lt;blockquote &gt; &lt;/blockquote&gt;","description":"Puts content in a quote - indents text from both sides","example":""},
+                   {"tag":"&lt;div&gt;&lt;/div&gt;","description":"Used to format block content with CSS","example":""},
+                   {"tag":"&lt;span&gt;&lt;/span&gt;","description":"Used to format inline content with CSS","example":""}
+                 
+                
+            ]
+}
+,
+ {
+     "section":"List",
+     "tags":[
+                   {"tag":"&lt;ul&gt;&nbsp;&lt;/ul&gt;","description":"Creates an unordered list","example":""},
+                   {"tag":"&lt;ol start=?&gt;&nbsp;&lt;/ol&gt;","description":"Creates an ordered list (start=xx,where xx is a counting number)","example":""},
+                   {"tag":"&lt;li&gt;&nbsp;&lt;/li&gt;","description":"Encompasses each list item","example":""},
+                   {"tag":"&lt;dl &gt; &lt;/dl&gt;","description":"Creates a definition list","example":""},
+                   {"tag":"&lt;dt&gt;&lt;/dt&gt;","description":"Precedes each defintion term","example":""},
+                   {"tag":"&lt;dd&gt;&lt;/dd&gt;","description":"Precedes each defintion term","example":""}
+                 
+                
+            ]
+}
+,
+ {
+     "section":"Graphical elements",
+     "tags":[
+                   {"tag":"&lt;hr &gt;&nbsp;&lt;/hr&gt;","description":"Inserts a horizontal rule","example":""},
+                   {"tag":"&lt;hr size=?&gt;&nbsp;&lt;/hr&gt;","description":"Sets size (height) of horizontal rule","example":""},
+                   {"tag":"&lt;hr width=?&gt;&nbsp;&lt;/hr&gt;","description":"Sets width of rule (as a % or absolute pixel length)","example":""},
+                   {"tag":"&lt;hr noshade&gt;&nbsp;&lt;/hr&gt;","description":"Creates a horizontal rule without a shadow","example":""},
+                   {"tag":"&lt;img src=''url''/&gt;","description":"Adds image; it is a separate file located at the URL","example":""},
+                   {"tag":"&lt;img src=''url'' align=?/&gt;","description":"Aligns image left/right/center/bottom/top/middle (use CSS)","example":""},
+                   {"tag":"&lt;img src=''url'' border=?/&gt;","description":"Sets size of border surrounding image (use CSS)","example":""},
+                   {"tag":"&lt;img src=''url'' height=?/&gt;","description":"Sets height of image, in pixels","example":""},
+                   {"tag":"&lt;img src=''url'' alt=?/&gt;","description":"Sets the alternate text for browsers that can not process images (required by the ADA)","example":""}
+                   
+                   
+                 
+                
+            ]
+}
+,
+ {
+     "section":"Forms",
+     "tags":[
+                   {"tag":"&lt;form&gt;&nbsp;&lt;form&gt;","description":"Defines a form","example":""},
+                   {"tag":"&lt;select multiple name=? size=?&gt;&nbsp;&lt;select&gt;","description":"Creates a scrolling menu. Size sets the number of menu items visible before user needs to scroll.","example":""},
+                   {"tag":"&lt;select name=?&gt;&lt;select&gt;","description":"Creates a pulldown menu","example":""},
+                   {"tag":"&lt;option value=?&gt;&lt;option&gt;","description":"Sets off each menu item","example":""},
+                   {"tag":"&lt;input name=? type=''checkbox'' value=? &gt;&lt;/input&gt;","description":"Creates a checkbox.","example":""},
+                   {"tag":"&lt;input name=? type=''checkbox'' value=? checked /&gt;&lt;/input&gt;","description":"Creates a checkbox that is pre-checked","example":""},
+                   {"tag":"&lt;input name=? type=''radio'' value=? checked /&gt;&lt;/input&gt;","description":"Creates a radio button.","example":""},
+                   {"tag":"&lt;input name=? type=''radio'' value=? checked /&gt;&lt;/input&gt;","description":"Creates a radion button that is pre-checked.","example":""},
+                   {"tag":"&lt;input name=? type=''text'' size=? &gt;&lt;/input&gt;","description":"Creates a one-line text area. Size sets length, in characters.","example":""},
+                   {"tag":"&lt;input name=? type=''submit''value=? &gt;&lt;/input&gt;","description":"Creates a submit button. Value sets the text in the submit button.","example":""},
+                   {"tag":"&lt;input name=? type=''image'' src=? order=? alt=? &gt;&lt;/input&gt;","description":"Creates a submit button using an image.","example":""},
+                   {"tag":"&lt;input name=? type=''reset''&gt;&lt;/input&gt;","description":"Creates a reset button","example":""}
+                   
+                 
+                
+            ]
+}
+,
+ {
+     "section":"Tables",
+     "tags":[
+                   {"tag":"&lt;table&gt;&nbsp;&lt;table&gt;","description":"Creates a table","example":""},
+                   {"tag":"&lt;thead&gt;&nbsp;&lt;thead&gt;","description":"Creates a table head section","example":""},
+                   {"tag":"&lt;th&gt;&nbsp;&lt;th&gt;","description":"Creates a table header (a normal cell with bold,centered text).","example":""},
+                   {"tag":"&lt;tbody&gt;&nbsp;&lt;tobody&gt;","description":"Creates a table body","example":""},
+                   {"tag":"&lt;tr&gt;&nbsp;&lt;tr&gt;","description":"Creates a row in a table.","example":""},
+                   {"tag":"&lt;td &gt;&lt;td&gt;","description":"Creates a cell in a row ","example":""}
+                   
+                 
+                
+            ]
+}
+
+]

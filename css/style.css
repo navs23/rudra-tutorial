@@ -1,0 +1,27 @@
+body{
+    font-family: Verdana,Geneva,Tahoma,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+.tag-item{
+    font-size: medium;
+    color: red;
+}
+.tag-table{
+    width:90%;
+    
+}
+.tag-table  tr  td{
+    font-size: small;
+    font-stretch: condensed;
+    
+}
+.example-container{
+    
+    max-height: 15px;
+    overflow-y: auto;
+    
+}
+.row-heading{
+    
+    font-weight: bold;
+}
