@@ -1,10 +1,5 @@
 
-A simple webserver application written to server static pages for education purpose.
-
-
-
-npm i
-npm start
+A simple webserver application for serving static pages.
 
 ## Cloning and Running the server
 
