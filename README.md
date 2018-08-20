@@ -1,22 +1,22 @@
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+A simple webserver application written to server static pages for education purpose.
 
 
-Welcome to your Node.js project on Cloud9 IDE!
 
-This chat example showcases how to use `socket.io` with a static `express` server.
+npm i
+npm start
 
-## Running the server
+## Cloning and Running the server
 
-1) Open `server.js` and start the app by clicking on the "Run" button in the top menu.
+1) Clone repo
 
-2) Alternatively you can launch the app from the Terminal:
+ - git clone https://github.com/navs23/rudra-tutorial.git
 
-    $ node server.js
+2) Install dependencies
 
-Once the server is running, open the project in the shape of 'https://projectname-username.c9users.io/'. As you enter your name, watch the Users list (on the left) update. Once you press Enter or Send, the message is shared with all connected clients.
+npm i
+
+3) Run web server
+
+npm start
+
